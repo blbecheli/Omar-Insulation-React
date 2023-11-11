@@ -1,0 +1,65 @@
+.container{
+    width: 100vw;
+    margin: 4rem auto 0 auto;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    width: 80vw;
+    margin: 2rem auto;
+}
+
+.footer__info p{
+    color: #2947A9;
+    font-weight: 600;
+    line-height: 2.5rem;
+}
+
+.footer__info p span{
+    color: #000;
+    font-weight: 400;
+    margin-left: 1rem;
+}
+
+.footer__social{
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+.footer__social p{
+    color: #2947A9;
+    font-weight: 600;
+}
+
+.footer__social div a img{
+margin-left: 20px;
+}
+
+.footer__logo{
+    width: 180px;
+    height: auto;
+}
+
+.company{
+    background-color: #2947A9;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    padding: auto;
+}
+
+.company p{
+    padding: auto;
+    font-weight: 400;
+    color: #FFF;
+    padding: 2rem auto;
+    margin: 0 5rem;
+    
+}
