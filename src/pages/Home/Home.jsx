@@ -4,6 +4,7 @@ const Home = () => {
   return (
     <section className={styles.section}>
       <div className={styles.painel}>
+        <img src="img/design.svg" alt="" />
         <div className={styles.painel__title}>
           <h1>High-Performance Thermal Insulation: The warmth of comfort in your home</h1>
         </div>
