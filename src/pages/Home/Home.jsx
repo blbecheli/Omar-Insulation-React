@@ -20,17 +20,17 @@ const Home = () => {
         <h1>Our Reputation</h1>
         <div className={styles.reputation__chart}>
           <div>
-            <img src="/img/phone.svg" alt="" />
+            <img src="img/phone.svg" alt="" />
             <p>Best service</p>
             <span>Nullam senectus porttitor in eget. Eget rutrum leo interdum.</span>
           </div>
           <div>
-            <img src="/img/phone.svg" alt="" />
+            <img src="img/phone.svg" alt="" />
             <p>Best team</p>
             <span>Nullam senectus porttitor in eget. Eget rutrum leo interdum.</span>
           </div>
           <div>
-            <img src="/img/phone.svg" alt="" />
+            <img src="img/phone.svg" alt="" />
             <p>Best Design</p>
             <span>Nullam senectus porttitor in eget. Eget rutrum leo interdum.</span>
           </div>
