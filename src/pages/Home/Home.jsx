@@ -1,10 +1,13 @@
+import Imagens from '../../components/Imagens';
 import styles from './Home.module.css';
+
 
 const Home = () => {
   return (
     <section className={styles.section}>
-      <div className={styles.painel} style={{backgroundImage: `url("img/Insulation1.webp")`}}>        
-        <div className={styles.painel__title}>
+      <Imagens imagemUrl={'img/Insulation1.webp'}>      
+      {/* <div className={styles.painel}>         */}
+        {/* <div className={styles.painel__title}>
           <h1>High-Performance Thermal Insulation: The warmth of comfort in your home</h1>
         </div>
         <div className={styles.painel__selector}>
@@ -14,7 +17,8 @@ const Home = () => {
             <span>Next &rarr;</span>
           </div>
         </div>
-      </div>
+      </div> */}
+      </Imagens>
 
       <div className={styles.reputation}>
         <h1>Our Reputation</h1>
