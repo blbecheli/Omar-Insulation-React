@@ -5,7 +5,7 @@
 
 .painel {
     position: relative;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.90) 16.58%, rgba(255, 255, 255, 0.00) 72.38%), url('Insulation1.webp'), lightgray 50% / cover no-repeat;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.90) 16.58%, rgba(255, 255, 255, 0.00) 72.38%), lightgray 50% / cover no-repeat;
     height: 80vh;
     width: 100%;
     background-repeat: no-repeat;
