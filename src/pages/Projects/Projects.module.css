@@ -1,0 +1,45 @@
+.container{
+    width: 90vw;
+    margin: 2rem auto;
+}
+
+.container h1{
+    margin-bottom: 3rem;
+    color: #292E3D;
+    font-weight: 600;
+}
+
+.project{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-evenly;
+}
+
+.project__img{
+    max-width: 30%;
+    transition: box-shadow 0.3s ease;
+}
+
+.project__img:hover{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.project__img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .project__img{
+        max-width: 40%;
+    }
+}
+

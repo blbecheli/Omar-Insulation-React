@@ -1,0 +1,10 @@
+.container{
+    width: 90vw;
+    height: 70vh;
+    margin: 4rem auto;
+}
+.container h1{
+    margin-bottom: 3rem;
+    color: #292E3D;
+    font-weight: 600;
+}
