@@ -89,3 +89,12 @@
     color: #3D445C;
     
 }
+
+@media screen and (max-width: 940px) {
+    .reputation__chart div {
+        gap: 5px;
+        padding: 5px;
+    }
+    
+}
+

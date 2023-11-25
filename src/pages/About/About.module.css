@@ -10,3 +10,10 @@
     color: #292E3D;
     font-weight: 600;
 }
+
+@media screen and (max-width: 768px){
+    .container{
+        height: fit-content;
+        margin: 1rem auto;
+    }
+}
